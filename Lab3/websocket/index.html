@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebSocket Chat App</title>
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <script src="js/socket.js"></script>
+    </head>
+    <body onload="javascript:WebSocketSupport()">
+        <div id="ws_support"></div>
+
+        <div id="wrapper">
+            <div id="chatbox"></div>
+
+            <div id ="controls">
+                <input name="msg" type="text" id="msg" placeholder="Type your message here" />
+                <input name="sendmsg" type="submit"  id="sendmsg" value="Send" onclick="doSend(document.getElementById('msg').value)" />
+            </div>
+        </div>
+    </body>
+</html>

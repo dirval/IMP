@@ -1,0 +1,30 @@
+body{
+  background-color: black;
+}
+
+#title{
+  color: white;
+}
+
+input{
+  border-radius: 6px;
+  width: 40%;
+  height: 50px;
+  font-size: 20px;
+}
+
+button{
+  border-radius: 9px;
+  width: 35%;
+  height: 50px;
+  font-size: 20px;
+}
+
+p{
+  color: lightblue;
+  font-size: 20px;
+}
+
+#eraseB{
+  margin-top: 10px;
+}

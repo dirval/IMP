@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charseet="UTF-8" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="playAudio">
+        <audio src="http://stream.basso.fi:8000/stream" id="audio"></audio>
+        <input type="range" id="volume" value="Volume" min="0" max="1" step="0.1" onchange="volume()">
+        <div id="buttons">
+          <button class="control" id="play" onclick="play()">Play</button>
+          <button class="control" id="pause" onclick="pause()">Pause</button>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

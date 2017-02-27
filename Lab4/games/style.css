@@ -1,0 +1,15 @@
+#can{
+  background-color: lightgrey;
+  margin-top: 3%;
+}
+
+#showGame{
+  border: 1px solid black;
+  width: 500px;
+  padding: 0 2% 2%;
+  margin: auto;
+}
+
+.head{
+  display: inline-block;
+}

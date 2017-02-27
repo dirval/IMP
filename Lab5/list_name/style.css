@@ -1,0 +1,21 @@
+body{
+  background-color: black;
+}
+
+#title{
+  color: white;
+}
+
+input{
+  border-radius: 6px;
+  width: 40%;
+}
+
+button{
+  border-radius: 9px;
+  width: 35%;
+}
+
+p{
+  color: lightblue;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Storage API</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body onload="wsApi()">
+<div class="wrapper">
+	<h1>WS API</h1>
+
+	<p>Example og text for show the font change with the WebStorage!</p>
+
+	<form>
+		<div>
+			<label for="bgcolor">Choose Background color:</label>
+			<input type="color" id="bgcolor" value="#FF0000">
+		</div>
+		<div>
+			<label for="font">Choose font style</label>
+			<select id='font'>
+				<option value="'Open Sans Condensed', sans-serif" selected>Sans-serif</option>
+				<option value="'Bitter', serif">Serif</option>
+				<option value="'Ubuntu Mono'">Monospace</option>
+			</select>
+		</div>
+		<button onclick="dataStorage()">send</button>
+	</form>
+</div>
+</body>
+</html>

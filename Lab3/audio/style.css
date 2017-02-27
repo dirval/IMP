@@ -1,0 +1,33 @@
+#playAudio{
+  border: 1px grey solid;
+  border-radius: 8px;
+  background-color: lightgrey;
+  width: 25%;
+  margin: auto;
+  text-align: center;
+  padding: 1% 1% 1%;
+}
+
+#volume{
+  width: 90%;
+}
+
+#buttons{
+  margin: 1%;
+}
+
+.control{
+  border: none;
+  text-align: center;
+  padding: 5px;
+  font-size: 18px;
+  width: 25%;
+  font-weight: bold;
+  border-radius: 3px;
+  background-color: red;
+  color: white;
+}
+
+.control:active{
+  background-color: black;
+}

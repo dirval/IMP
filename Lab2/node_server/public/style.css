@@ -1,0 +1,62 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  background-color: lightgrey;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+h1{
+  background-color: grey;
+  width: 100%;
+  font-size: 40px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+p{
+  text-align: justify;
+  color: white;
+  font-size: 18px;
+}
+
+#content{
+  margin-left: 11%;
+  margin-right: 2%;
+}
+
+#menu{
+  width: 10%;
+  float: left;
+}
+
+#menu ul li{
+  list-style: none;
+  margin-bottom: 8%;
+}
+
+#menu ul a:hover{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+figure{
+  border: 1px solid black;
+  padding: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img{
+  width: 100%;
+}
+
+#picture{
+  width: 100%;
+}

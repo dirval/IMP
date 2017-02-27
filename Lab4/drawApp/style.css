@@ -1,0 +1,12 @@
+#areaToDraw{
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+
+canvas{
+  background-color: lightgrey;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>LAB 3 WS </title>
+  </head>
+  <body onload="wsApi()">
+    <div id="addName">
+      <span id="title">NAME</span>
+      <input type="text" placeholder="Put a name" id="name" value="">
+      <button type="submit" value="Add person" onclick="addPerson(document.getElementById('name').value)">Add Person</button>
+    </div>
+
+    <div id="content">
+    </div>
+    <button type="submit" id="eraseB" value="Erase List name" onclick="nameErase()">Erase List Name</button>
+  </body>
+
+</html>
